@@ -1,0 +1,84 @@
+#start-page,
+#Built-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+#first-bar nav {
+  display: flex;
+}
+
+#start-page hr {
+  color: black;
+  width: 100vw;
+}
+
+.Flexible-page img {
+  padding-top: 10px;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+#Flexible-page i {
+  font-size: 100px;
+}
+
+.Flexible-page .col-4 {
+  text-align: center;
+}
+
+.Flexible-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Flexible-h h1,
+.Get-h h1 {
+  color: skyblue;
+}
+
+#Flexible-page hr {
+  color: black;
+  width: 100vw;
+}
+
+.start-h h2 {
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.modal-body p {
+  color: black;
+  align-content: center;
+}
+
+.start-l {
+  width: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Built-h h1 {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.Built-h h2 {
+  font-size: 15px;
+}
+
+#Get-page .textarea {
+  width: 100%;
+  height: 30rem;
+}
+
+#Last-bar {
+  display: flex;
+}
