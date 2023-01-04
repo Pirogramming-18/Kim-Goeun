@@ -1,0 +1,94 @@
+body {
+  height: 100vh;
+}
+
+#main-time {
+  display: flex;
+  justify-content: center;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(110, 142, 110);
+  border-radius: 20px;
+  width: 53vh;
+  height: 215px;
+}
+
+.t-b h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.tb {
+  border-radius: 15px;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 350px;
+  height: 75px;
+  margin-top: 60px;
+  padding-bottom: 95px;
+}
+
+.tb h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+.container button {
+  border-color: beige;
+  background-color: beige;
+  margin-bottom: 10px;
+}
+
+.title-record {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 130px;
+  font-size: 25px;
+  width: 490px;
+  height: 45px;
+  padding-top: 7px;
+}
+
+#t-board {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.b-title {
+  background-color: rgb(110, 142, 110);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+input[type="checkbox"] {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid #999;
+  appearance: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: black;
+  border: none;
+}

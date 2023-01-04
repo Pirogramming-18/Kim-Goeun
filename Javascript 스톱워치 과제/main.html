@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="d-flex justify-content-center mt-5 align-center">
+        <h1><b>⏱ 피로그래밍 스톱워치</b></h1>
+    </div>
+    <div id="main-time">
+      <span class="clock">
+        <div class="tb">
+              <h1 id="sec"><b>00</b><h2>
+              <h1><b>:</b></h1>
+              <h1 id="msec"><b>00</b></h1>
+        </div>    
+        <div class="container d-flex justify-content-center mb-5 gap-5 flex-row">  
+                <button id="btnstart" class="rounded-pill p-3"><b>start</b></button>
+                <button id="btnstop" class="rounded-pill p-3"><b>stop</b></button>
+                <button id="btnreset" class="rounded-pill p-3"><b>reset</b></button>
+        </div>
+      </span>          
+    </div>
+    <div id="t-board">
+      <div class="b-title">
+        <div class="title-record">
+          <input type="checkbox" id="all">
+          <h5><b>구간 기록</b></h5>
+          <i class="fa-solid fa-trash" id="delete"></i>
+        </div>
+      </div>
+      <ul id="record-list">
+
+      </ul>
+    </div>
+
+    <script src="/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6fbcf91afd.js" crossorigin="anonymous"></script>
+  </body>
+</html>
