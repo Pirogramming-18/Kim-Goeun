@@ -19,6 +19,6 @@ def player(name):
         num += 1
         print (name ,':',num)
 
-player('playerA')
-player('playerB')
-
+while (num != 31 ):
+    player('playerA')
+    player('playerB')
