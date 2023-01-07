@@ -1,6 +1,6 @@
 num = 0
 
-def player(name):
+def brGame(name):
     global num
     ice_n = input('부를 숫자의 개수를 입력하세요(1,2,3 만 입력가능) :')
     
@@ -22,11 +22,11 @@ def player(name):
             break
 
 while True:            
-    player('playerA')
+    brGame('playerA')
     if num == 31:
         print('playerB win!')
         break
-    player('playerB')
+    brGame('playerB')
     if num == 31:
         print('playerA win!')
         break
