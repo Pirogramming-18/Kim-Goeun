@@ -12,6 +12,9 @@ while True: #
     else: # 정수를 입력하지 않은 경우
         ice_n = input('정수만 입력가능 :')
 
-        
+ice_n= int(ice_n)
+for num in range(ice_n):
+    num = num+1
+    print ('playerA:',(num))
 
    
