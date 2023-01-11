@@ -10,7 +10,7 @@ def Menu1(name, mid_score, final_score) :
 def Menu2() :
     #학점 부여 하는 코딩
     for i in range(len(studentlist)):
-        score = float((studentlist[i]["mid_score"]+studentlist[i]["final"])/2)
+        score = float((studentlist[i][1]+studentlist[i][2])/2)
         grade=""
         if score >= 90:
             grade="A"
@@ -27,11 +27,11 @@ def Menu2() :
 
 ##############  menu 3
 def Menu3() :
-    print('---------------------------')
-    print('name   mid_score   final_score  grade')
-    print('---------------------------')
+    print("---------------------------")
+    print("name   mid_score   final_score  grade")
+    print("---------------------------")
 
-    for studentlist 
+    for studentlist
         name = studentlist['name']
         mid = studentlist['mid_score']
         final = studentlist['final_score']
@@ -39,8 +39,13 @@ def Menu3() :
         print(f'{name}\t{mid}\t{final}\t{grade}')
 
 ##############  menu 4
-def Menu4(#매개변수가 필요한지 판단 후 코딩할 것):
+def Menu4():
     #학생 정보 삭제하는 코딩
+    for i in range(len(studentList)):
+        if name == studentList[i][0] :
+          del studentList[i]
+          break
+        ?
 
 #학생 정보를 저장할 변수 초기화
 print("*Menu*******************************")
@@ -53,20 +58,26 @@ print("*************************************")
 while True :
     choice = input("Choose menu 1, 2, 3, 4, 5 : ")
     if choice == "1":
+        n, m, f = input('정보를 입력하세요').split(n,m,f)
+
+        Menu1(n,m,f)
         #학생 정보 입력받기
         #예외사항 처리(데이터 입력 갯수, 이미 존재하는 이름, 입력 점수 값이 양의 정수인지)
         #예외사항이 아닌 입력인 경우 1번 함수 호출 
 
     elif choice == "2" :
+        break
         #예외사항 처리(저장된 학생 정보의 유무)
         #예외사항이 아닌 경우 2번 함수 호출
         #"Grading to all students." 출력
 
     elif choice == "3" :
+        break
         #예외사항 처리(저장된 학생 정보의 유무, 저장되어 있는 학생들의 학점이 모두 부여되어 있는지)
         #예외사항이 아닌 경우 3번 함수 호출
 
     elif choice == "4" :
+        break
         #예외사항 처리(저장된 학생 정보의 유무)
         #예외사항이 아닌 경우, 삭제할 학생 이름 입력 받기
         #입력 받은 학생의 존재 유무 체크 후, 없으면 "Not exist name!" 출력
@@ -82,3 +93,5 @@ while True :
     else :
         #"Wrong number. Choose again." 출력
          print("Wrong number. Choose again.")
+
+
