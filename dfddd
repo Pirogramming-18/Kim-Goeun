@@ -1,0 +1,415 @@
+[33mcommit afed49557466f107e70f50720a5f006e4810a589[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 07:33:17 2023 +0900
+
+    django 폼
+
+[33mcommit e851cf66e899b4b82f099b7a9bface596ef38092[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 07:30:02 2023 +0900
+
+    애플리케이션 확장하기
+
+[33mcommit e87569d39477fb2114aefce4300f4e76c88639ed[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 07:10:43 2023 +0900
+
+    템플릿 확장하기
+
+[33mcommit 3dec8ca7062a9a03913e6fba98e4b0fd9174743a[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 07:01:28 2023 +0900
+
+    CSS 예쁘게 만들기
+
+[33mcommit a9cf435fcdc259871f7445b81b6e5079c05afce2[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 06:30:45 2023 +0900
+
+    템플릿 동적 데이터
+
+[33mcommit 54383683201f56e10395b31e5c62cb26abbf2f59[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 05:32:04 2023 +0900
+
+    HTML 시작하기
+
+[33mcommit e93ba76f50f4e1e842629519e0d5ff84db6f83cb[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 05:28:51 2023 +0900
+
+    django 뷰 만들기
+
+[33mcommit 1cf7f39440f35e53b438ed3f45c02ba3b659b9c4[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 04:56:32 2023 +0900
+
+    django urls
+
+[33mcommit a2ee34336b8006deb3641f4c2539fa1e3916373b[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 04:54:07 2023 +0900
+
+    Django 관리자
+
+[33mcommit 8b2d741bcf844fed11b8f0d1bb4020d3d52f4a65[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 04:31:12 2023 +0900
+
+    Django 모델
+
+[33mcommit a16e6f7a046011fa222612757309ea03ef0678ef[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 03:42:23 2023 +0900
+
+    나의 첫 번째 Django 프로젝트!
+
+[33mcommit a81be8a4c904cc9c092b18ca9934985fdb7d87f6[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 12 03:37:10 2023 +0900
+
+    오류로 인한 파이썬3.9 (변경)/ 설치하기
+
+[33mcommit 7207bbf4a18e46ec859502a90b618d3b7c62b9b6[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Wed Jan 11 14:41:10 2023 +0900
+
+    python 시작하기
+
+[33mcommit 08f56c04a00239a044ced93dada6c1b25f851c43[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Wed Jan 11 12:18:14 2023 +0900
+
+    설치하기
+
+[33mcommit d3cdcce884628e92cc995c05bb826121764c4cd0[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sun Jan 8 02:55:54 2023 +0900
+
+    9단계
+
+[33mcommit 86118689cc1ff6b5ba86634db59e3025067a8f3c[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sun Jan 8 02:02:26 2023 +0900
+
+    8단계
+
+[33mcommit e236edb9116cd7d3dcbbdf95ff2c3cb6d2efbc15[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sun Jan 8 01:54:12 2023 +0900
+
+    7단계
+
+[33mcommit 49c9607e5c47c6102f084fb9d70109aeb84b930c[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sun Jan 8 00:26:35 2023 +0900
+
+    6단계
+
+[33mcommit bcdba75b1b98cae95e9910f02f8cee70a5c94254[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sun Jan 8 00:17:56 2023 +0900
+
+    5단계
+
+[33mcommit 1bdcf8719394939d093acc3cfb99ae171d381d46[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sat Jan 7 22:20:52 2023 +0900
+
+    4단계
+
+[33mcommit 50a16e2609210678aade09ffb778c5ffb4f3e646[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sat Jan 7 21:50:53 2023 +0900
+
+    3단계
+
+[33mcommit 5def4beec6ed0b1b3599192fc88a2228c01a9eed[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sat Jan 7 19:54:09 2023 +0900
+
+    2단계
+
+[33mcommit 0158c1dc2743fb2cffa91a27def634f739c40996[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sat Jan 7 19:51:30 2023 +0900
+
+    1단계
+
+[33mcommit 3296d232282e12290ba82172121d605071b3a161[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sat Jan 7 07:43:06 2023 +0900
+
+    메뉴 3까지..
+
+[33mcommit bb27a17fb268415c33f81fcf5b081fd95ffe19d6[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sat Jan 7 01:41:42 2023 +0900
+
+    45 퀴즈&심사문제
+
+[33mcommit 58c0b92a5c64768f41553e7b3e23b8cf5f2e550c[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Sat Jan 7 01:41:26 2023 +0900
+
+    44 퀴즈&심사문제
+
+[33mcommit d8714943c869444ea9fd3eaa3d1bf86becee4bb9[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Fri Jan 6 15:18:48 2023 +0900
+
+    38 퀴즈&심사문제
+
+[33mcommit 060580cf2eaf13fbb2269cfcc0d4c862278e1878[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Fri Jan 6 14:37:50 2023 +0900
+
+    36 퀴즈&심사문제
+
+[33mcommit ff2b4bdec2ceb390738d9c3e221a85ae80a6ae83[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Fri Jan 6 13:11:34 2023 +0900
+
+    35 퀴즈&심사문제
+
+[33mcommit 7713b9d678b95d48199a1dfc88ee6317621ce533[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Fri Jan 6 05:13:14 2023 +0900
+
+    34 퀴즈&심사문제
+
+[33mcommit 74dcb95b544f17d7f5103a71e242aa56864ecfdb[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Thu Jan 5 08:30:17 2023 +0900
+
+    과제
+
+[33mcommit d76548ea8ab08bc6dadc43d54428d90f80c1db99[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Wed Jan 4 20:15:15 2023 +0900
+
+    자바스크립트 강의&코드
+
+[33mcommit b0f35f57955130c0b05bc2f01ac02850810c2e15[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Tue Jan 3 09:58:35 2023 +0900
+
+    bootstrap 과제
+
+[33mcommit 8835639680ab569aaf4ebb849d47811a4b6ee3cd[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Tue Jan 3 07:35:08 2023 +0900
+
+    19 퀴즈&심사문제
+
+[33mcommit 9d1fccad2994f9638386148966a2e50ed8697da0[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Tue Jan 3 06:44:16 2023 +0900
+
+    18 퀴즈&심사문제
+
+[33mcommit ec92ebf71a16c4571842e52e9e2fec2463fb6e08[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Tue Jan 3 06:32:56 2023 +0900
+
+    17 퀴즈&심사문제
+
+[33mcommit 03e45e9fcd221c7aa5e74da640655d4af1621a92[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Tue Jan 3 06:13:53 2023 +0900
+
+    16
+    
+    16 퀴즈&심사문제
+
+[33mcommit 822bd6180a5f3b618eea17392116c7884c008871[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Tue Jan 3 06:13:27 2023 +0900
+
+    15 퀴즈&심사문제
+
+[33mcommit 134e71fb6473898689fd3911fd2bc900169602ef[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Tue Jan 3 05:16:24 2023 +0900
+
+    14 퀴즈&심사문제
+
+[33mcommit a38ba06b61d3d3a43751ed37bdf2a2811b3ccc8d[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Tue Jan 3 04:52:19 2023 +0900
+
+    13 퀴즈&심사문제
+
+[33mcommit 7006d2c77b3b333e3cc6ea0319fc8afbd7f3690a[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Tue Jan 3 04:24:57 2023 +0900
+
+    12 퀴즈&심사문제
+
+[33mcommit ca7700343795290509221fb5d898cfdaae22b0b5[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Mon Jan 2 23:03:17 2023 +0900
+
+    11 퀴즈&심사문제
+
+[33mcommit 645545c3f55f296e5b648a8ffba20c9cf19cf6ae[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Mon Jan 2 21:09:31 2023 +0900
+
+    10 퀴즈&심사문제
+
+[33mcommit e419c37b70e8ebe838dfb2a2096470c201733b7c[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Mon Jan 2 20:47:58 2023 +0900
+
+    9 퀴즈&심사퀴즈
+
+[33mcommit 38be1c905f6608f577e497c65dbc0aeb33ff6de1[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Mon Jan 2 20:25:20 2023 +0900
+
+    8 퀴즈 & 심사문제
+
+[33mcommit 938efa5be3565287e7fbbab48fa6c7e07c73c4e9[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Mon Jan 2 18:23:30 2023 +0900
+
+    7 퀴즈&심사문제
+
+[33mcommit 257be8af84964bbbbd51b489cadcbe19ca335fe0[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Mon Jan 2 04:19:24 2023 +0900
+
+    6 퀴즈&심사문제
+
+[33mcommit d06638c11ec81b13f09dcf9c38c4b6107901850d[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Mon Jan 2 02:46:18 2023 +0900
+
+    5 퀴즈& 심사문제
+
+[33mcommit 7e9fe6b15a9ecd8af15cfc0afa912cbe83d3dd92[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Mon Jan 2 02:10:44 2023 +0900
+
+    3.8 심사문제
+
+[33mcommit d877e1fa182d03d7013d4c3492da0a050952b8e2[m
+Author: 김고은 <rlarhdms6828@naver.com>
+Date:   Mon Jan 2 02:03:09 2023 +0900
+
+    3.6 퀴즈
+
+[33mcommit e32ab53159ed22efbe34cc301467df3093252d6d[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Thu Dec 29 23:31:15 2022 +0900
+
+    Add files via upload
+
+[33mcommit b1a775f66b399a756d24eb11b4d4ce3b6d96368d[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Thu Dec 29 09:48:15 2022 +0900
+
+    8강
+
+[33mcommit a9ccc7c1aa178cbdebab8c2f3642b26065404aa5[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Thu Dec 29 09:47:05 2022 +0900
+
+    7강
+
+[33mcommit 9a333b92c976529da4bbca3372808036a5990776[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Thu Dec 29 08:21:03 2022 +0900
+
+    6강
+
+[33mcommit 98aab2d08b340d45f05f9284e8c5d800a4b68b89[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Thu Dec 29 08:19:19 2022 +0900
+
+    5강
+
+[33mcommit ad25ae237ac3a74b49b514c3ed6e7fd5d74ff6df[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Thu Dec 29 03:31:13 2022 +0900
+
+    4강
+
+[33mcommit f4843a8892bed00941a5e2f0b6c69fe406be2a95[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Thu Dec 29 03:29:50 2022 +0900
+
+    3강
+
+[33mcommit fa9d203f1c521a9f98fdbb61d56e964036a3ba68[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 22:40:33 2022 +0900
+
+    2강
+
+[33mcommit fccbc974b98edc7e53ef708452e48686c3d2efdc[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 22:40:12 2022 +0900
+
+    Delete 제로초 인강제/Ch2 directory
+
+[33mcommit 4824efe89d96a0073b1e2bd9e51580d9bc3bcb8b[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 22:39:41 2022 +0900
+
+    Ch2
+
+[33mcommit b2912ca8bca115e776d9108d36ea73700caba6fd[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 22:39:07 2022 +0900
+
+    Delete Ch2 directory
+
+[33mcommit a518f0ec2634079c3fbbf8da022258bb562ed6ff[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 22:38:54 2022 +0900
+
+    Ch2
+
+[33mcommit 85b384d9537ba3cf7b41d0f9d0bc009605ecce55[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 14:04:57 2022 +0900
+
+    Delete Ch1 directory
+
+[33mcommit 050c47ace09896a15af2e3f74e1b31cb30574e00[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 14:04:26 2022 +0900
+
+    1강
+
+[33mcommit 25efeda8f2a84a0a513cb6fe67156007486e024c[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 14:03:38 2022 +0900
+
+    제로초 강의
+
+[33mcommit 173b7826758d5285225ec1d26bfbfe459b2f2a66[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 14:01:25 2022 +0900
+
+    Delete 제로초 인강
+
+[33mcommit ffbc4a8926e6f06774c0d5829a4049af0389c850[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 13:57:28 2022 +0900
+
+    Ch1
+
+[33mcommit 3108b2d2616d3145e82ae443305248c40022b7bb[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 13:33:42 2022 +0900
+
+    Create 제로초 인강
+
+[33mcommit e36c905c8cc58feda885281a0d29cae409c869a4[m
+Author: gonn-i <121345759+gonn-i@users.noreply.github.com>
+Date:   Wed Dec 28 08:08:23 2022 +0900
+
+    Create README.md

@@ -1,0 +1,41 @@
+<!-- 리뷰 상세정보 -->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="/" class="top_left">my<span>Movie</span>reviews</a>
+      </div>
+      <div><a href="/post/create" class="top_right">Add a New review</a></div>
+    </header>
+    <hr />
+    <a href="/post/{{ post.pk }}/update">수정</a>
+    <form action="/post/{{ post.pk }}/update" method="post"></form>
+    <a href="/post/{{ post.pk }}/delete">삭제</a>
+    <form action="/post/{{ post.pk }}/delete" method="post"></form>
+    <h1>{{ post.title }}</h1>
+    <div>
+      <img scr="{{i.pic}}" alt="movie_poster" />
+      <small>개봉년도: {{ post.year }}</small>
+      <br />
+      <small>감독: {{ post.director }}</small>
+      <br />
+      <small>주연: {{ post.actor }}</small>
+      <br />
+      <small>장르: {{ post.genre }}</small>
+      <br />
+      <small>별점: {{ post.star }}</small>
+      <br />
+      <small>러닝타임: {{ post.time }} 분</small>
+    </div>
+    <br />
+    <div class="post_content"><p>{{ post.content }}</p></div>
+    <br />
+  </body>
+</html>
