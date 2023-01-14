@@ -1,0 +1,27 @@
+header {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: underline;
+  align-items: center;
+}
+
+.top_left {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  color: black;
+  margin: 7px;
+}
+
+.top_right {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin: 7px;
+  font-weight: 600;
+}
+span {
+  color: rgb(237, 72, 85);
+}

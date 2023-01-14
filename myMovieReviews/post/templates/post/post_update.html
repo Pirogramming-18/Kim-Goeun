@@ -9,11 +9,13 @@
   <body>
     <header>
       <div>
-        <a href="/" class="top_left">my<span>Movie</span>reviews</a>
+        <a href="/" class="top_left">🎬my<span>Movie</span>reviews</a>
       </div>
       <div><a href="/post/" class="top_right">Add a New review</a></div>
     </header>
-    <h1>Movie review🍿</h1>
+    <b
+      ><p>Movie<span>review🍿</span></p></b
+    >
     <form action="/post/{{ post.pk }}/update" method="POST">
       {% csrf_token %}
       <input name="title" placeholder="제목" value="{{ post.title }}" />

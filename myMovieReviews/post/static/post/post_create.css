@@ -1,0 +1,53 @@
+header {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: underline;
+  align-items: center;
+}
+
+.top_left {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  color: black;
+  margin: 7px;
+}
+
+.top_right {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin: 7px;
+  font-weight: 600;
+}
+span {
+  color: rgb(237, 72, 85);
+}
+
+form {
+  display: flex;
+  width: 60%;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(232, 232, 232);
+  padding: 4%;
+}
+
+input {
+  display: flex;
+  justify-content: end;
+}
+
+.movie_box,
+p {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 600;
+}
