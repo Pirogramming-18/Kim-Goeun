@@ -12,16 +12,19 @@
       <div>
         <a href="/" class="top_left">my<span>Movie</span>reviews</a>
       </div>
-      <div><a href="/post/create" class="top_right">Add a New review</a></div>
+      <div><a href="/post/" class="top_right">Add a New review</a></div>
     </header>
     <hr />
     <a href="/post/{{ post.pk }}/update">수정</a>
-    <form action="/post/{{ post.pk }}/update" method="post"></form>
-    <a href="/post/{{ post.pk }}/delete">삭제</a>
-    <form action="/post/{{ post.pk }}/delete" method="post"></form>
+    <form action="/post/{{ post.pk }}/update" method="POST"></form>
+
+    <form action="/post/{{ post.pk }}/delete" method="POST">
+      {% csrf_token %}
+      <input type="submit" value="삭제" />
+    </form>
     <h1>{{ post.title }}</h1>
     <div>
-      <img scr="{{i.pic}}" alt="movie_poster" />
+      <img scr="{{post.pic.url}}" alt="movie_poster" />
       <small>개봉년도: {{ post.year }}</small>
       <br />
       <small>감독: {{ post.director }}</small>

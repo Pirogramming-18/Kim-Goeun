@@ -7,40 +7,42 @@
     <title>Document</title>
   </head>
   <body>
+    <header>
+      <div>
+        <a href="/" class="top_left">my<span>Movie</span>reviews</a>
+      </div>
+      <div><a href="/post/" class="top_right">Add a New review</a></div>
+    </header>
     <h1>Movie review🍿</h1>
-    <form action="/reviews/{{ reviews.id }}/update" method="reviews">
+    <form action="/post/{{ post.pk }}/update" method="POST">
       {% csrf_token %}
-      <input name="title" placeholder="제목" value="{{ reviews.title }}" />
+      <input name="title" placeholder="제목" value="{{ post.title }}" />
       <br />
       <input
         name="year"
         placeholder="개봉년도"
         type="number"
-        value="{{ reviews.year }}"
+        value="{{ post.year }}"
       />
       <br />
-      <input name="genre" placeholder="장르" value="{{ reviews.genre }}" />
+      <input name="genre" placeholder="장르" value="{{ post.genre }}" />
       <br />
-      <input name="star" placeholder="별점" value="{{ reviews.star }}" />
+      <input name="star" placeholder="별점" value="{{ post.star }}" />
       <br />
       <input
         name="time"
         placeholder="러닝타임"
         type="number"
-        value="{{ reviews.time }}"
+        value="{{ post.time }}"
       />
       <br />
-      <textarea name="content" placeholder="리뷰">
-      {{ reviews.content }}</textarea
+      <textarea name="review" placeholder="리뷰">
+      {{ post.review }}</textarea
       >
       <br />
-      <input
-        name="director"
-        placeholder="감독"
-        value="{{ reviews.director }}"
-      />
+      <input name="director" placeholder="감독" value="{{ post.director }}" />
       <br />
-      <input name="actor" placeholder="배우" value="{{ reviews.actor }}" />
+      <input name="actor" placeholder="배우" value="{{ post.actor }}" />
       <div>
         <input type="submit" value="Save" />
       </div>

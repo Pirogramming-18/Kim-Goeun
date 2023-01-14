@@ -14,14 +14,14 @@
       <div>
         <a href="/" class="top_left">my<span>Movie</span>reviews</a>
       </div>
-      <div><a href="/post/create" class="top_right">Add a New review</a></div>
+      <div><a href="/post/" class="top_right">Add a New review</a></div>
     </header>
     <hr >
     <div class="content_container">  
         {% for i in posts %} 
           <div class="m_box">
-              <img scr="{{i.pic}}" alt="movie_poster">   
-              <br><a href="/post/detail">{{i.title}} </a> <br>
+              <img scr="{{i.pic.url}}" alt="movie_poster">   
+              <br><a href="/post/{{i.pk}}">{{i.title}} </a> <br>
               <small>개봉년도  {{i.year}} </small><br>
               <small>장르  {{i.genre}} </small><br>
               <small>별점  {{i.star}} </small>
