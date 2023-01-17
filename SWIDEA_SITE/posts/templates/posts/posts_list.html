@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDEA SITE - MAIN PAGE</title>
+  </head>
+  <body>
+    <header>
+      <div><a href="/" class="top_left">My<span>SW Idea</span>Manage</a></strong></div>
+      <div class="top_right">
+        <a href="/" class="idea_register">아이디어 등록</a>
+        <a href="/" class="idea_manage">아이디어 관리</a>
+        <a href="/" class="tool_register">개발툴 등록</a> <!--개발툴 등록 html 추가-->
+        <a href="/" class="tool_manage">개발툴 관리</a>  <!--개발툴 관리 html 추가-->
+      </div>
+    </header>
+    <div class="mainlist_box">
+      <b><span>Idea List💡</span></b>
+      <p>나의 아이디어를 잊지 말고 기록해보세요</p>
+      {%for i in posts %}
+        <article>
+            {% if i.photo %}
+            <p>
+                <img src="{{ i.photo.url }}"/>
+            </p><br>
+            {% endif %}
+            <p><!--{{i.순서}}--> 번째 게시물</p>
+            <hr>
+            <div>
+                <p><a href="{% url 'posts:retrieve' post.pk %}">예상 개발 툴: {{i.title}}</a></p><br>
+                <p>아이디어 관심도: {{ i.interset }}</p>
+            </div>
+        </article>
+      {% endfor%}
+    </div>  
+  </body>
+</html>
