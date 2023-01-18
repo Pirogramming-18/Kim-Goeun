@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IDEA SITE - MAIN PAGE</title>
+    <title>IDEA SITE - Devtool_list</title>
   </head>
   <body>
     <header>
@@ -14,23 +14,17 @@
         <a href="{% url 'posts:create' %}" class="idea_register">아이디어 등록</a>
         <a href="/" class="idea_manage">아이디어 관리</a>
         <a href="{% url 'posts:devtool_create'%}" class="devtool_create">개발툴 등록</a> 
-        <a href="{% url 'posts:devtool_list'%}" class="devtool_list">개발툴 관리</a>  
+        <a href="{% url 'posts:devtool_list'%}" class="devtool_list">개발툴 관리</a> 
       </div>
     </header>
-    <div class="mainlist_box">
-      <b><span>Idea List💡</span></b>
-      <p>나의 아이디어를 잊지 말고 기록해보세요</p>
-      {% for i in posts %}
+    <div class="tlist_box">
+      <b><span>Devtool List🛠️</span></b>
+      <p>개발툴 목록 페이지입니다. 자신이 사용가능한 개발들의 목록을 확인해 보세요.</p>
+      {%for i in tools %}
         <article>
-            {% if i.photo %}
-            <p>
-                <img src="{{ i.photo.url }}"/>
-            </p><br>
-            {% endif %}
-            <p><a href="{% url 'posts:retrieve' i.pk %}">{{i.title}}</a></p><br
-            <div>
-                <p>예상 개발 툴: {{i.title}}</p><br>
-                <p>아이디어 관심도: {{ i.interset }}</p>
+            <a href="{% url 'posts:devtool_retrieve' i.pk %}"> {{i.name}} </a>
+            <span>{{ i.type }}</span>
+            <p> {{ i.tool_content }}</p>
             </div>
         </article>
         <hr>

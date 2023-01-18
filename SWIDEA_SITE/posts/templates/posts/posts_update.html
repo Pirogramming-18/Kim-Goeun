@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDEA SITE - MAIN PAGE</title>
+  </head>
+  <body>
+    <header>
+      <div><a href="/" class="top_left">My<span>SW Idea</span>Manage</a></strong></div>
+      <div class="top_right">
+        <a href="{% url 'posts:create' %}" class="idea_register">아이디어 등록</a>
+        <a href="/" class="idea_manage">아이디어 관리</a>
+        <a href="{% url 'posts:devtool_create'%}" class="devtool_create">개발툴 등록</a> 
+        <a href="{% url 'posts:devtool_list'%}" class="devtool_list">개발툴 관리</a> 
+      </div>
+    </header>
+    <div class="iupdate_box">
+      <b><span>Idea Detail Update💡</span></b>
+      <p>아이디어 세부내용 수정 페이지입니다. 아이디어를 구체화하거나 내용을 변경해 보아요!</p>
+      <form method="POST">
+        <hr />
+        {% csrf_token %}
+        <span>아이디어명: <br><input name="title" value="{{Post.title}}"/></span>
+        <br />
+        <span>Image: <br><input name="img" type="file" /></span>
+        <br />
+        <span>아이디어 설명: <br><textarea name="content" placeholder="설명">{{Post.content}}</textarea></span>
+        <br />
+        <span>아이디어 관심도: <input value="{{Post.interest}}" name="interest" placeholder="관심도" /></span>
+        <br />
+        <select name= "devtool">
+          <span> 예상 개발툴: </span>
+          {% for i in tools %} 
+            <option value="{{i.id}}" name="devtool">{{i.name}}</option>
+          {% endfor %}                
+          </select>
+        <br />
+        
+        <br />
+        <div>
+          <input type="submit" value="Save" />
+        </div>
+      </form>
+    </div>  
+  </body>
+</html>

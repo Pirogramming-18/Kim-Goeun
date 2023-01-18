@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDEA SITE - MAIN PAGE</title>
+  </head>
+  <body>
+    <header>
+      <div><a href="/" class="top_left">My<span>SW Idea</span>Manage</a></strong></div>
+      <div class="top_right">
+        <a href="{% url 'posts:create' %}" class="idea_register">아이디어 등록</a>
+        <a href="/" class="idea_manage">아이디어 관리</a>
+        <a href="{% url 'posts:devtool_create'%}" class="devtool_create">개발툴 등록</a> 
+        <a href="{% url 'posts:devtool_list'%}" class="devtool_list">개발툴 관리</a> 
+      </div>
+    </header>
+    <div class="tupdate_box">
+        <b><span>Devtool Detail Update</span></b>
+        <p>개발툴 세부내용 수정 페이지입니다. 개발툴에 대해 수정사항이 있으면 고쳐보아요!</p>
+      <form  method="post" enctype="multipart/form-data">
+        <hr />
+
+        {% csrf_token %}
+        <span>이름: <br><input name="name" placeholder="개발툴 이름" value="{{tools.name}}"/></span>
+        <br /> 
+        <span>종류: <input name="type" placeholder="종류" /></span>
+        <br />
+        <span>개발툴 설명: <textarea name="tool_content" placeholder="설명"></textarea></span>
+        <br />
+          <input type="submit" value="Save" />
+      </form>
+    </div>  
+  </body>
+</html>

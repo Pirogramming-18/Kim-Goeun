@@ -11,35 +11,32 @@
     <header>
       <div><a href="/" class="top_left">My<span>SW Idea</span>Manage</a></strong></div>
       <div class="top_right">
-        <a href="/" class="idea_register">아이디어 등록</a>
+        <a href="{% url 'posts:create' %}" class="idea_register">아이디어 등록</a>
         <a href="/" class="idea_manage">아이디어 관리</a>
-        <a href="/" class="tool_register">개발툴 등록</a> <!--개발툴 등록 html 추가-->
-        <a href="/" class="tool_manage">개발툴 관리</a>  <!--개발툴 관리 html 추가-->
+        <a href="{% url 'posts:devtool_create'%}" class="devtool_create">개발툴 등록</a> 
+        <a href="{% url 'posts:devtool_list'%}" class="devtool_list">개발툴 관리</a> 
       </div>
     </header>
     <div class="iregister_box">
       <b><span>Idea Register💡</span></b>
       <p>아이디어 등록 페이지입니다. 아이디어를 잊지 말고 기록해주세요!</p>
-      <form action="posts/create/" method="POST" enctype="multipart/form-data">
+      <form action="{% url 'posts:create' %}" method="POST" enctype="multipart/form-data">
         <hr />
-
         {% csrf_token %}
         <span>아이디어명: <br><input name="title" placeholder="아이디어 제목" value="{{Post.title}}"/></span>
         <br />
-        <input name="year" placeholder="개봉년도" type="number" />
+        <input name="img" placeholder="이미지" type="file" />
         <br />
         <span>아이디어 설명: <textarea name="content" placeholder="설명"></textarea></span>
         <br />
         <span>아이디어 관심도: <input name="interest" placeholder="관심도" /></span>
         <br />
-        <span>예상 개발툴:
-            <select name="devtool">
-                <option value="django">django</option>
-                <option value="react">react</option>
-            </select>
-        </span>
-        <br />
-        
+        <select name= "devtool">
+          <span> 예상 개발툴: </span>
+          {% for i in tools %} 
+            <option value="{{i.id}}" name="devtool">{{i.name}}</option>
+          {% endfor %}                
+        </select>
         <br />
         <div>
           <input type="submit" value="Save" />

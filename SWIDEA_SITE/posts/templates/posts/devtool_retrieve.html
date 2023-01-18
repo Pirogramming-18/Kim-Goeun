@@ -18,28 +18,21 @@
       </div>
     </header>
     <div class="retrieve_box">
-      <b><span>Idea Detail💡</span></b>
-      <p>아이디어 세부내용 페이지입니다. 당신이 구현하려 한 아이디어들을 자세히 살펴보세요.</p>
-      <article>
-          {% if post.photo %}
-          <p>
-              <img src="{{ post.photo.url }}"/>
-          </p><br>
-          {% endif %}
-          <h2>{{post.title}}</h2>
-          <div>
-              <p> 1. 아이디어 관심도 {{ post.interset }}</p>
-              <p><a href="{% url 'posts:devtool_retrieve' post.pk%}"> 2. 예상 개발툴 {{ i.devtool }}</a></p>
-              <p> 3. 아이디어 설명 {{ post.content }}</p>
-          </div>
-      </article>
+      <b><span>DevTool Detail💡</span></b>
+      <p>개발툴 세부내용 페이지입니다. 자신이 다룰 수 있는 개발툴에 대한 상세내용을 확인해보아요.</p>
+        <span><br><input name="name" placeholder="개발툴 이름" value="{{tool.name}}"/></span>
+        <br /> 
+        <span>개발툴 설명: <textarea name="devtool_content" placeholder="설명">{{tool.tool_content}}</textarea></span>
+        <br /><hr>
+      </form>
+
       <div>
-        <a href="{% url 'posts:update' post.pk%}">수정</a>
+        <a href="{% url 'posts:devtool_update' tool.pk %}">수정</a>
       </div>
       <div>
-        <a href="/">목록</a>
+        <a href="{% url 'posts:devtool_list'%}">목록</a>
       </div>
-      <form action="{% url 'posts:delete' post.pk%}" method="post">
+      <form action="{% url 'posts:devtool_delete' tool.pk %}" method="post">
         {% csrf_token %}
         <input type="submit" , value="삭제" />
       </form>
