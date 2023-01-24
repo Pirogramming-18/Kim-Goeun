@@ -1,5 +1,5 @@
-구현한 기능
+<strong> 구현한 기능 </strong><br> 
 
-좋아요 (O)
-댓글 개시 (O)
-댓글 삭재 (O) 
+<strong> 좋아요 (O) </strong><br> 
+<strong> 댓글 개시 (O) </strong><br> 
+<strong> 댓글 삭재 (O)  </strong><br> 
